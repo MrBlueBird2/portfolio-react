@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url(./web-font/SFPRODISPLAYREGULAR.OTF);
+}
+
+:root {
+  /* ---- LIGHT MODE ---- */
+
+  --light-mode-background: #fff;
+  --light-mode-para: #6a0e8f;
+
+  /* ---- DARK MODE ---- */
+
+  --dark-mode-background: #131313;
+  --dark-mode-para: #7c3cc4;
+
+  /* ---- FONTS ----  */
+
+  --web-font: 'SF Pro Display';
+}
+
+.dark-mode p {
+  color: var(--dark-mode-para);
+}
+
+.dark-mode {
+  background: var(--dark-mode-background);
+}
+
+.bg-image {
+  background: url("background.png") no-repeat center fixed;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  font-family: 'SF Pro Display';
+}
