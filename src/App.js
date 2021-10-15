@@ -67,17 +67,17 @@ function App() {
                 <a href="https://codechef.com/users/mrbluebird2" className="text-dark"><i className="fa fa-cc text-dark"></i></a>
               </div>
             </div>
-            <div className="col-md-1" style={{marginLeft: '-30px'}}>
+            <div className="col-md-1">
               <div className="container-item">
                 <a href="https://www.linkedin.com/in/badri-vishal-mani-tripathi-721a8421a/" className="text-dark"><i className="fa fa-linkedin text-dark"></i></a>
               </div>
             </div>
-            <div className="col-md-1" style={{marginLeft: '-35px'}}>
+            <div className="col-md-1">
               <div className="container-item">
                 <a href="https://github.com/mrbluebird2" className="text-dark"><i className="fa fa-github text-dark"></i></a>
               </div>
             </div>
-            <div className="col-md-1" style={{marginLeft: '-35px'}}>
+            <div className="col-md-1">
               <div className="container-item">
                 <a href="mailto:badrivishalmanitripathi@gmail.com" className="text-dark"><i className="fa fa-envelope text-dark"></i></a>
               </div>
