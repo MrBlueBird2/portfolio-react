@@ -68,3 +68,12 @@
   border: 1px solid transparent;
   border-radius: 100px;
 }
+
+#about {
+  margin-top: 120px;
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
+  /* background: linear-gradient(45deg, #e923e9, #84368f ,#8e46c9, #b269ee); */
+}
