@@ -34,3 +34,37 @@
   background-size: cover;
   font-family: 'SF Pro Display';
 }
+
+@media screen and (max-width:992px) {
+  nav {
+    position: relative;
+    left: -30%;
+    transition: 1s;
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+
+  .card {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .bg-image {
+    background-blend-mode: darken;
+    background: url(background.png) center no-repeat fixed rgba(0, 0, 0, 0.5);
+  }
+}
+
+.fw-bold {
+  letter-spacing: 1px;
+}
+
+.dp-pic {
+  max-width: 100%;
+  width: 190px;
+  height: 200px;
+  border: 1px solid transparent;
+  border-radius: 100px;
+}
