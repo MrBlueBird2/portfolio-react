@@ -28,7 +28,7 @@
 }
 
 .bg-image {
-  background: url("background.png") no-repeat center fixed;
+  background: url("./images/background.png") no-repeat center fixed;
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -53,7 +53,7 @@
 
   .bg-image {
     background-blend-mode: darken;
-    background: url(background.png) center no-repeat fixed rgba(0, 0, 0, 0.5);
+    background: url(./images/background.png) center no-repeat fixed rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -76,4 +76,57 @@
 body::-webkit-scrollbar {
   width: 0px;
   /* background: linear-gradient(45deg, #e923e9, #84368f ,#8e46c9, #b269ee); */
+}
+
+/* #portfolio {
+  background: url(./images/portfolio-bg.webp);
+  height: 100%;
+  background-size: cover;
+} */
+
+/* .row-1 .col-md-4 .container-item {
+  border: 6px solid transparent;
+  border-image: linear-gradient(to right, #b510c4,cyan, #82df82);
+  border-image-slice: 1;
+  padding: 25px;
+} */
+
+.line {
+  height: 300px;
+  width: 8px;
+}
+
+.intern-img {
+  max-width: 100%;
+  width: 600px;
+  float: right;
+}
+
+.profiles-img {
+  max-width: 100%;
+  width: 400px;
+  /* margin-top: 200px; */
+  margin: 0 auto;
+}
+
+.profiles-img-d {
+  float: right;
+}
+
+@media only screen and (min-width: 1000px) {
+  .profiles-img-d {
+    position: relative;
+    margin-top: 250px;
+    margin-left: -20px;
+  }
+}
+
+.about-profiles-ul {
+  display: flex;
+  list-style: none;
+  margin-left: -20px;
+}
+
+.about-profiles-ul li {
+  padding: 0px 15px;
 }
